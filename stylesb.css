@@ -1,0 +1,30 @@
+body{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card{
+    margin: 40px;
+    border: 1px solid rgb(197, 193, 218);
+    border-bottom: 6px solid #d8cefe;
+    background-color: #ddebf8;
+    padding: 20px;
+    display: flex;
+    /*if  the img and description are in same div then flex columns all of them so
+     in order to keep the content side by side we have to keep them in different div*/
+    justify-content: space-around;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    color: #2b2839;
+}
+.image{
+    width: 150px;
+    border: 1px solid rgb(178, 174, 199);
+}
+/*
+CSS Inheritance:- write DRYer(dont repeat yourself) code less code sams result as more code
+fewer bugs, be more efficient
+always use web-safe fonts cos when the server sends the 
+requested by client html css,assets it doesnt send fonts as the client
+might have some sort of fonts on the client side and dont wanna change it.
+*/
